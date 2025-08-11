@@ -31,19 +31,5 @@ public class DynamicSkillDP extends BaseModPlugin {
         BaseSkillEffectDescription.PHASE_OP_THRESHOLD = PHASE_OP_THRESHOLD * multiplier;
         BaseSkillEffectDescription.MILITARIZED_OP_THRESHOLD = MILITARIZED_OP_THRESHOLD * multiplier;
         BaseSkillEffectDescription.AUTOMATED_POINTS_THRESHOLD = AUTOMATED_POINTS_THRESHOLD * multiplier;
-
-        // Modify skills for less immediate impact but same long-term value.
-        /*
-        BulkTransport.CARGO_CAPACITY_THRESHOLD = 4000;
-        BulkTransport.FUEL_CAPACITY_THRESHOLD = 4000;
-        BulkTransport.PERSONNEL_CAPACITY_THRESHOLD = 10000;
-        BulkTransport.CARGO_CAPACITY_MAX_PERCENT = 20;
-        BulkTransport.FUEL_CAPACITY_MAX_PERCENT = 20;
-        BulkTransport.PERSONNEL_CAPACITY_MAX_PERCENT = 20;
-        MakeshiftEquipment.SUPPLY_USE_REDUCTION_MAX_PERCENT = 25;
-        ContainmentProcedures.FUEL_USE_REDUCTION_MAX_PERCENT = 25;
-        Sensors.SENSOR_BONUS = 100.0F;
-        OfficerManagement.NUM_OFFICERS_BONUS = 3.0F;
-        */
     }
 }
