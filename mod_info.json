@@ -1,0 +1,9 @@
+{
+    "id":"dynamicskilldp",
+    "name":"Dynamic Skill DP",
+    "author":"GunGuyDude",
+    "version":"0.1",
+    "description":"Dynamically changes DP limits on skills to reflect max battle size",
+    "gameVersion": "0.98a-RC8",
+    "modPlugin":"data.scripts.DynamicSkillDP"
+}
