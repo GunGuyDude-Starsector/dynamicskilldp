@@ -20,8 +20,7 @@ public class DynamicSkillDP extends BaseModPlugin {
 
     @Override
     public void onApplicationLoad() {
-        //int battleSize = Global.getSettings.getBattleSize();
-        float battleSize = 800f;
+        float battleSize = (float) Global.getSettings().getBattleSize();
         float multiplier = battleSize / BASE_MAX_BATTLE_SIZE;
 
         BaseSkillEffectDescription.FIGHTER_BAYS_THRESHOLD = FIGHTER_BAYS_THRESHOLD * multiplier;
